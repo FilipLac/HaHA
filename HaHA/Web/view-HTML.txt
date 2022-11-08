@@ -1,0 +1,4 @@
+Use this to view any HTML on github:
+https://htmlpreview.github.io/
+
+Or direct link: https://htmlpreview.github.io/?https://github.com/FilipLac/WebProject/blob/main/HaHA/Web/index.html#
