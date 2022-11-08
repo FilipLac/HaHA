@@ -8,3 +8,32 @@ hr
     margin-right: 5%;
     margin: 3%;
 }
+.doprostred
+{
+    display: flex;
+    justify-content: center;
+}
+@media screen 
+{
+    .dropdown:hover .dropdown-menu,
+    .btn-group:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin: auto;
+    }
+    .dropdown-toggle {
+        margin: auto;
+    }
+    .navbar .dropdown-toggle,
+    .nav-tabs .dropdown-toggle {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 410px)
+{
+    #btn-hide-on-sm-screen
+    {
+        display:none;
+    }
+}

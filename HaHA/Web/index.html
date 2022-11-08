@@ -16,33 +16,26 @@
 </head>
 <body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
               <a class="navbar-brand" href="#">HaHA logo</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                  <a class="nav-link" href="#">O nás<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Fotogalerie</a>
-              </li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Více
+                      Menu
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Stažení</a>
-                    <a class="dropdown-item" href="#">Informace o hře</a>
+                    <a class="dropdown-item" href="#">Home</a>
+                    <a class="dropdown-item" href="#">O nás</a>
+                    <a class="dropdown-item" href="#">Galerie</a>
+                    <a class="dropdown-item" href="#">Hrát</a>
+                    <a class="dropdown-item" href="#">Feedback</a>
                   </div>
               </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-               <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Feedback</button>
-          </form>
-        </div>
+              <form class="doprosted">
+               <button class="btn btn-outline-warning my-2 my-sm-0 btn-block" id="btn-hide-on-sm-screen" type="submit">Feedback</button>
+              </form>
       </nav>
     </header>
     <div class="container-fluid padding">
@@ -56,14 +49,14 @@
         </div>
     </div>
     <hr>
-    <div class="container-fluid text-center">
+    <div class="container-fluid padding text-center">
         <div class="row welcome">
-          <div class="col-md-2">
+          <div class="col-lg-3">
             <div class="card">
               <img src="img/P.png" alt="" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">
-                  Petr "Péťa" Provazník
+                  Petr "Psyk3rAzek" Provazník
                 </h4>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetuer adispicing elit.
@@ -71,12 +64,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-3">
             <div class="card">
               <img src="img/pixil-frame-0.png" alt="" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">
-                  Filip "Hackerko" Lacina
+                  Filip "Láca" Lacina
                 </h4>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetuer adispicing elit.
@@ -84,12 +77,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-3">
             <div class="card">
               <img src="img/M.png" alt="" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">
-                  Michal "Topič" Adam
+                  Michal "Hackerko" Adam
                 </h4>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetuer adispicing elit.
@@ -97,8 +90,22 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="img/PAJ.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Pavlína "Paju_Neko" Bočková
+                </h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                </p>
+              </div>
+            </div>
+          </div> 
         </div>
     </div>
     <hr>
+    <script type="text/javascript" src="script/menu_open_hover.js"></script>
 </body>
 </html>
