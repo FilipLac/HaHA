@@ -16,36 +16,41 @@
 </head>
 <body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
-              <a class="navbar-brand" href="#">HaHA logo</a>
-              
-              <ul class="navbar-nav mr-auto">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Menu
+          <nav class="navbar navbar-expand-lg navbar-light text-center mt-1 mb-2">
+
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown col-2">
+                  <a class="nav-link dropdown-toggle menuHover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <div class="menuMenu">Menu</div>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Home</a>
-                    <a class="dropdown-item" href="#">O nás</a>
-                    <a class="dropdown-item" href="#">Galerie</a>
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="o_nas.html">O nás</a>
+                    <a class="dropdown-item" href="galerie.html">Galerie</a>
                     <a class="dropdown-item" href="../Game/Deployment/Demo-1/Web/HaHA/www/index.html">Hrát</a>
                     <a class="dropdown-item" href="#">Feedback</a>
                   </div>
               </li>
               </ul>
-              <form class="doprosted">
+              <div class="col-2"></div>
+              <a class="navbar-brand col-4" href="#" style="background-color: orange;">HaHA logo</a>
+              <div class="col-2"></div>
+              <form class="doprosted col-2">
                <button class="btn btn-outline-warning my-2 my-sm-0 btn-block" id="btn-hide-on-sm-screen" type="submit">Feedback</button>
               </form>
       </nav>
     </header>
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-            <div class="col-sm-6 gamediv">
+  <div>
+    <div class="container-fluid padding mt-5">
+        <div class="row welcome text-justify">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 gamediv">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non lectus sed nisl molestie malesuada. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Nulla est. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Praesent dapibus. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Fusce suscipit libero eget elit. Fusce tellus. Vivamus luctus egestas leo. Nullam dapibus fermentum ipsum. Praesent dapibus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non lectus sed nisl molestie malesuada. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Nulla est. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Praesent dapibus. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Fusce suscipit libero eget elit. Fusce tellus. Vivamus luctus egestas leo. Nullam dapibus fermentum ipsum. Praesent dapibus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
             </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
     <hr>
@@ -53,52 +58,52 @@
         <div class="row welcome">
           <div class="col-lg-3">
             <div class="card">
-              <img src="img/P.png" alt="" class="card-img-top">
+              <img src="img/P.png" alt="" class="card-img-top rounded-circle">
               <div class="card-body">
                 <h4 class="card-title">
                   Petr "Psyk3rAzek" Provazník
                 </h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                  Copywriter
                 </p>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="card">
-              <img src="img/pixil-frame-0.png" alt="" class="card-img-top">
+              <img src="img/pixil-frame-0.png" alt="" class="card-img-top rounded-circle">
               <div class="card-body">
                 <h4 class="card-title">
                   Filip "Láca" Lacina
                 </h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                  Programátor
                 </p>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="card">
-              <img src="img/M.png" alt="" class="card-img-top">
+              <img src="img/M.png" alt="" class="card-img-top rounded-circle">
               <div class="card-body">
                 <h4 class="card-title">
                   Michal "Hackerko" Adam
                 </h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                  Project manager
                 </p>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="card">
-              <img src="img/PAJ.png" alt="" class="card-img-top">
+              <img src="img/PAJ.png" alt="" class="card-img-top rounded-circle">
               <div class="card-body">
                 <h4 class="card-title">
                   Pavlína "Paju_Neko" Bočková
                 </h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                  Grafik
                 </p>
               </div>
             </div>
@@ -107,6 +112,6 @@
     </div>
     <hr>
     <script type="text/javascript" src="script/menu_open_hover.js"></script>
-    
-</body>
+  </div>
+  </body>
 </html>

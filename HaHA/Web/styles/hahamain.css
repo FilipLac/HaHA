@@ -1,7 +1,3 @@
-.orange
-{
-    background-color: orange;
-}
 hr
 {
     margin-left: 5%;
@@ -18,6 +14,7 @@ hr
     .dropdown:hover .dropdown-menu,
     .btn-group:hover .dropdown-menu {
         display: block;
+        animation: anim 200ms ease-out forwards;
     }
     .dropdown-menu {
         margin: auto;
@@ -36,4 +33,22 @@ hr
     {
         display:none;
     }
+}
+html
+{
+    font-size: 1.3rem;
+}
+.menuHover
+{
+    font-weight: bold;
+    font-size: 0rem;
+}
+.menuMenu
+{
+    font-size: 1rem;
+}
+@keyframes anim
+{
+    0%{display: none; opacity: 0;}
+    100%{display: block; transform:translateY(-7%); opacity: 1;}
 }
