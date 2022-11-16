@@ -1,3 +1,8 @@
+@font-face 
+{
+    font-family: spookyFont;
+    src: url(../fonts/RubikWetPaint-Regular.ttf);
+}
 body, html
 {
     margin: 0;
@@ -42,6 +47,7 @@ hr
 html
 {
     font-size: 1.3rem;
+    background-color: #343a40;
 }
 .menuHover
 {
@@ -70,4 +76,20 @@ html
 .navbar
 {
     background-color: white;
+}
+.rounded
+{
+    transition: 200ms;
+}
+.rounded:hover
+{
+    transform: scale(102%);
+    transition: 200ms;
+}
+.content
+{
+    background-image: url('../img/dyne.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
