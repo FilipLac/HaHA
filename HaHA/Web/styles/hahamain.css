@@ -93,3 +93,34 @@ html
     background-position: center center;
     background-attachment: fixed;
 }
+#predvolba
+{
+    width: 15% !important;
+}
+#cislo
+{
+    width: 75% !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+   -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] 
+{
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+.input-text
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input
+{
+    width: 100%;
+}
+.top-input-width
+{
+    width: 90%;
+}
