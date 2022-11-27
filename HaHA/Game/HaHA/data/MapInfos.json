@@ -1,5 +1,9 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Start-End_outside","order":1,"parentId":0,"scrollX":728,"scrollY":409.77777777777777},
-{"id":2,"expanded":false,"name":"Hall","order":2,"parentId":1,"scrollX":728,"scrollY":409.77777777777777}
+{"id":2,"expanded":true,"name":"Hall","order":2,"parentId":0,"scrollX":728,"scrollY":409.77777777777777},
+{"id":3,"expanded":false,"name":"K1","order":3,"parentId":2,"scrollX":728,"scrollY":409.77777777777777},
+{"id":4,"expanded":false,"name":"Class","order":4,"parentId":2,"scrollX":728,"scrollY":409.77777777777777},
+{"id":5,"expanded":true,"name":"Class-1Floor","order":5,"parentId":2,"scrollX":728,"scrollY":409.77777777777777},
+{"id":6,"expanded":false,"name":"Class-4Floor","order":6,"parentId":2,"scrollX":728,"scrollY":409.77777777777777}
 ]
