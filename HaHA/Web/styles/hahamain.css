@@ -119,8 +119,15 @@ input[type=number]
 input
 {
     width: 100%;
+    border-radius: 2rem;
+    border: 0;
 }
 .top-input-width
 {
     width: 90%;
+}
+.form
+{
+    background-color: whitesmoke;
+    border-radius: 1rem;
 }
