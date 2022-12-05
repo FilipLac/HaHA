@@ -136,3 +136,7 @@ input
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+.card-img-top
+{
+    width: 70% !important;
+}
