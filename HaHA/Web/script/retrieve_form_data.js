@@ -19,18 +19,32 @@ function datata()
 {
     //pickup
     jmeno = document.getElementById("jmeno").value;
-    email = document.getElementById("email");
-    prijmeni = document.getElementById("prijmeni");
-    telefon = document.getElementById("cislo");
-    tema = document.getElementById("tema");
-    pribeh = document.getElementById("pribeh");
-    prostor = document.getElementById("prostor");
-    obtiznost = document.getElementById("obtiznost");
-    atmosfera = document.getElementById("atmosfera");
-    postavy = document.getElementById("postavy");
-    pripominka = document.getElementById("pripominka");
-    stolenDataArray = [jmeno, email, prijmeni, telefon, tema, pribeh, prostor, obtiznost, atmosfera, postavy, pripominka];
-
+    email = document.getElementById("email").value;
+    prijmeni = document.getElementById("prijmeni").value;
+    telefon = document.getElementById("cislo").value;
+    tema = document.getElementById("tema").value;
+    pribeh = document.getElementById("pribeh").value;
+    prostor = document.getElementById("prostor").value;
+    obtiznost = document.getElementById("obtiznost").value;
+    atmosfera = document.getElementById("atmosfera").value;
+    postavy = document.getElementById("postavy").value;
+    pripominka = document.getElementById("pripominka").value;
+    const stolenDataArray = [
+        {
+          name: jmeno ,
+          surname: prijmeni,
+          imail: email,
+          phone: telefon,
+          theme: tema,
+          story: pribeh,
+          place: prostor,
+          difficulty: obtiznost,
+          atmosphere: atmosfera,
+          characters: postavy,
+          remarks: pripominka
+        }
+      ]
+    alert(stolenDataArray);
     const titleKeys = Object.keys(stolenDataArray[0])
 
     const refinedData = []
@@ -41,7 +55,7 @@ function datata()
     })
 
     refinedData.forEach(row => {
-        csvContent += row.join(',') + '\n'
+        csvContent += row.join(';') + '\n'
     })
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8,' })
     const objUrl = URL.createObjectURL(blob)
@@ -55,5 +69,5 @@ function hackanddownloaddata()
     link.setAttribute('download', 'File.csv')
     link.textContent = 'Click to Download'
 
-    document.querySelector('body').append(link)
+    document.getElementById("test").append(link)
 }
