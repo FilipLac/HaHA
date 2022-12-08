@@ -44,7 +44,8 @@ function datata()
           remarks: pripominka
         }
       ]
-    alert(stolenDataArray);
+    
+    //vytvoření CSV souboru
     const titleKeys = Object.keys(stolenDataArray[0])
 
     const refinedData = []
@@ -60,6 +61,8 @@ function datata()
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8,' })
     const objUrl = URL.createObjectURL(blob)
 }
+
+//stažení souboru, i know je to hodně weird způsob, jak to nakódit :3
 function hackanddownloaddata()
 {
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8,' })
