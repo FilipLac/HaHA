@@ -1,6 +1,0 @@
-Each tile is 32x32 pixels.
-One tileset can hold the A1-5 tiles (the base tiles) and the B-E tiles (items, furniture, etc). They can be configured from the Database.
-The B, C, D and E tile sheet are 512x512 pixels each, while the A tiles vary in size.
-
-https://forums.rpgmakerweb.com/index.php?threads/guide-to-simple-tileset-edits-rearranging-clumping-and-recoloring.3415/
-Maybe we should use gimp instead of Krita ?
