@@ -1,0 +1,1 @@
+Put here .zip file that includes export of HaHA game (Windows release).
